@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<object name="portal_skins" allow_any="False" cookie_persistence="False"
+   default_skin="plonetheme.training">
+
+ <object name="plonetheme_training_custom"
+    meta_type="Filesystem Directory View"
+    directory="plonetheme.training:skins/plonetheme_training_custom"/>
+
+ <skin-path name="plonetheme.training" based-on="Sunburst Theme">
+  <layer name="plonetheme_training_custom"
+     insert-after="custom"/>
+ </skin-path>
+
+</object>

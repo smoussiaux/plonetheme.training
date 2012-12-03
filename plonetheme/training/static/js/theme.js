@@ -1,0 +1,5 @@
+
+function initializeplonethemetraining(){
+
+}
+jQuery(initializeplonethemetraining);
